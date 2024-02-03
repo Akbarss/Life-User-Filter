@@ -1,3 +1,51 @@
 body {
   background-color: rgb(242, 235, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  .container {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    width: 400px;
+  }
+  .title {
+    margin: 0;
+  }
+  .subtitle {
+    display: inline-block;
+    margin: 5px 0px 20px;
+  }
+  .header {
+    background-color: rgb(47, 23, 231);
+    color: #fff;
+    padding: 30px 20px;
+  }
+  .header input {
+    background-color: black;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .header input:focus {
+    outline: none;
+  }
+  .user-list {
+    background-color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    li {
+      display: flex;
+      padding: 20px;
+    }
+  }
 }
